@@ -63,7 +63,7 @@ CREATE TABLE `askfor_leave` (
 
 LOCK TABLES `askfor_leave` WRITE;
 /*!40000 ALTER TABLE `askfor_leave` DISABLE KEYS */;
-INSERT INTO `askfor_leave` VALUES (11,'admin','ljjlkljklj','2013-07-01 02:14:41','2012-06-27 05:00:00','disagree',NULL,'hhjkj'),(12,'Fukai.Ding','dssdv','2013-07-01 02:14:09','2012-06-27 05:00:00','agree',NULL,''),(13,'admin','hrhwrthreghsdgh','2012-06-26 16:53:12','2012-06-27 05:00:00','no-reply',NULL,NULL);
+INSERT INTO `askfor_leave` VALUES (11,'admin','ljjlkljklj','2013-07-04 03:16:03','2012-06-27 05:00:00','disagree','2013-07-01','hhjkj'),(12,'Fukai.Ding','dssdv','2013-07-04 03:16:03','2012-06-27 05:00:00','agree','2013-07-01',''),(13,'admin','hrhwrthreghsdgh','2013-07-04 03:16:21','2012-06-27 05:00:00','no-reply','2013-06-27',NULL);
 /*!40000 ALTER TABLE `askfor_leave` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -158,4 +158,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-07-04 10:36:11
+-- Dump completed on 2013-07-04 11:16:38
