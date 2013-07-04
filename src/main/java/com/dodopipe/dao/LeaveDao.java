@@ -53,11 +53,11 @@ public class LeaveDao extends BaseDao implements ILeaveDao{
             params.add(leavebean.getName());
         }
         if(leavebean.getStartDate() != null){
-            sql.append("and leaveDate = ? ");
+            sql.append("and leaveDate >= ? ");
             params.add(leavebean.getStartDate());    
         }
         if(leavebean.getEndDate() != null){
-            sql.append("and leaveDate = ? ");
+            sql.append("and leaveDate <= ? ");
             params.add(leavebean.getEndDate());    
         }
         if(leavebean.getNote() != null && leavebean.getNote()!= ""){
