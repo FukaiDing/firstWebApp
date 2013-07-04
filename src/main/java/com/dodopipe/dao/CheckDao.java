@@ -103,11 +103,11 @@ public class CheckDao extends BaseDao implements ICheckDao{
             params.add(checkbean.getName());
         }
         if(checkbean.getCheck_first() != null){
-            sql.append("and data = ? ");
+            sql.append("and data >= ? ");
             params.add(checkbean.getCheck_first());
         }
         if(checkbean.getCheck_second() != null){
-            sql.append("and data = ? ");
+            sql.append("and data <= ? ");
             params.add(checkbean.getCheck_second());
         }
 
